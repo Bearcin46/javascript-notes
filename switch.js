@@ -64,3 +64,29 @@ switch(true){
         console.log("Hard Luck! Try next Time, You got 'U' Grade");
     
 }
+
+
+    
+   if (mark >90){
+    console.log("Hey Congrats! You are a Topper, You got 'S' Grade");
+    }
+    else if(mark <=90 && mark >80){
+        console.log("Congrats you got 'A' Grade");
+    }
+    else if (mark <=80 && mark >70){
+        console.log("You got 'B' Grade");
+    }
+    else if( mark <=70 && mark>60){
+        console.log("You got 'C' Grade");
+    }   
+    else if (mark <= 60 && mark >50){
+        console.log("You got 'D' Grade");
+    }  
+    else if( mark <= 50 && mark >45){
+        console.log("You got 'E' Grade");
+    }    
+    else{
+        console.log("Hard Luck! Try next Time, You got 'U' Grade");
+    }
+       
+    
