@@ -20,7 +20,7 @@ for(let i=0;i<output.length;i++){
 }
 
 console.log(`Total product Available on your budget is ${output.length}`)
-console.log(typeof(output))
+// console.log(typeof(output))
 
 
 //for apple
