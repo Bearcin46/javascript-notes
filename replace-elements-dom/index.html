@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="max-w-lg mx-auto">
+    <div id="items" class="bg-red-100 mt-10 p-4 rounded">
+      <div class="mb-3 flex gap-2">
+        <input
+          type="text"
+          placeholder="Enter your whishlists..."
+          class="p-2 w-full flex-1 focus:outline-2 focus:outline-pink-700 shadow-sm shadow-gray-200 rounded"
+          id="input"
+        />
+        <button
+          class="text-purple-800 bg-white rounded py-1 px-2 font-bold text-lg hover:bg-gray-100 shadow-sm shadow-gray-200"
+          id="btn"
+        >
+          ➕ Add
+        </button>
+      </div>
+      <ul class="lists space-y-3">
+        <li class="list-items bg-white p-2 rounded">dress</li>
+        <li class="list-items bg-white p-2 rounded">stars</li>
+        <li class="list-items bg-white p-2 rounded">lights</li>
+        <li class="list-items bg-white p-2 rounded">travel</li>
+        <li class="list-items bg-white p-2 rounded">cake</li>
+      </ul>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
